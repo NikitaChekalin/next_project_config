@@ -1,0 +1,11 @@
+.root {
+  cursor: pointer;
+  transition: $transition;
+
+  &.hover {
+    &:hover {
+      scale: 1.1;
+      stroke: $white;
+    }
+  }
+}

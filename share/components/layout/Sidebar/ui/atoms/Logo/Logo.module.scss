@@ -1,0 +1,8 @@
+.root {
+  cursor: pointer;
+  transition: $transition;
+
+  &:active {
+    transform: translateY(rem(2));
+  }
+}
